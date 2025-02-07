@@ -1,3 +1,24 @@
 body {
     background-color: aquamarine;
 }
+
+.Titulouno { 
+    color: darkblue;
+}
+
+.Titulodos{
+    color: dodgerblue;
+}
+img {
+    width: 150px; /* Ajusta el tamaño según necesites */
+    height: 150px;
+    border-radius: 50%; /* Hace la imagen completamente redonda */
+    margin: 10px; /* Espaciado entre imágenes */
+    transition: transform 0.3s ease-in-out; /* Animación suave */
+    object-fit: cover; /* Evita deformaciones */
+  }
+  
+  img:hover {
+    transform: scale(1.2); /* Aumenta la imagen al pasar el cursor */
+  }
+  
